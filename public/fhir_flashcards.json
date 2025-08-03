@@ -1,0 +1,490 @@
+[
+  {
+    "question": "What is the purpose of the Account resource?",
+    "answer": "Used to track financial costs and balances associated with a healthcare event or patient."
+  },
+  {
+    "question": "What is the purpose of the ActivityDefinition resource?",
+    "answer": "Describes a specific activity to be performed, including clinical or administrative actions."
+  },
+  {
+    "question": "What is the purpose of the AdverseEvent resource?",
+    "answer": "Information about an unintended reaction or incident that has occurred to a patient."
+  },
+  {
+    "question": "What is the purpose of the AllergyIntolerance resource?",
+    "answer": "Records of a patient's allergies or intolerances to substances."
+  },
+  {
+    "question": "What is the purpose of the Appointment resource?",
+    "answer": "Details of a planned healthcare event like a visit or procedure."
+  },
+  {
+    "question": "What is the purpose of the AppointmentResponse resource?",
+    "answer": "Indicates whether a participant accepts or declines an appointment."
+  },
+  {
+    "question": "What is the purpose of the AuditEvent resource?",
+    "answer": "Captures security-relevant events for auditing purposes."
+  },
+  {
+    "question": "What is the purpose of the Basic resource?",
+    "answer": "A resource used for custom or less common use cases not covered by other resources."
+  },
+  {
+    "question": "What is the purpose of the Binary resource?",
+    "answer": "Represents binary content like PDFs or images."
+  },
+  {
+    "question": "What is the purpose of the BiologicallyDerivedProduct resource?",
+    "answer": "Details products such as blood, tissue, or organs derived from biological sources."
+  },
+  {
+    "question": "What is the purpose of the BodyStructure resource?",
+    "answer": "Captures detailed information about anatomical structures of a patient."
+  },
+  {
+    "question": "What is the purpose of the Bundle resource?",
+    "answer": "Used to group a collection of resources together."
+  },
+  {
+    "question": "What is the purpose of the CapabilityStatement resource?",
+    "answer": "Describes a system's FHIR capabilities, including supported resources and operations."
+  },
+  {
+    "question": "What is the purpose of the CarePlan resource?",
+    "answer": "A plan of care for a patient, including goals and planned activities."
+  },
+  {
+    "question": "What is the purpose of the CareTeam resource?",
+    "answer": "Information about a group of people and their roles in the care of a patient."
+  },
+  {
+    "question": "What is the purpose of the ChargeItem resource?",
+    "answer": "Details billable items used in the provision of healthcare services."
+  },
+  {
+    "question": "What is the purpose of the Claim resource?",
+    "answer": "Request for payment for healthcare services rendered."
+  },
+  {
+    "question": "What is the purpose of the ClaimResponse resource?",
+    "answer": "Response to a claim from a payer."
+  },
+  {
+    "question": "What is the purpose of the ClinicalImpression resource?",
+    "answer": "Assessment of a patient\u2019s condition based on clinical findings."
+  },
+  {
+    "question": "What is the purpose of the Communication resource?",
+    "answer": "A record of an interaction between people regarding healthcare."
+  },
+  {
+    "question": "What is the purpose of the CommunicationRequest resource?",
+    "answer": "A request to send a communication."
+  },
+  {
+    "question": "What is the purpose of the CompartmentDefinition resource?",
+    "answer": "Defines how resources are compartmentalized within a system."
+  },
+  {
+    "question": "What is the purpose of the Composition resource?",
+    "answer": "A set of healthcare-related information assembled into a single document."
+  },
+  {
+    "question": "What is the purpose of the ConceptMap resource?",
+    "answer": "A mapping between concepts in different code systems."
+  },
+  {
+    "question": "What is the purpose of the Condition resource?",
+    "answer": "Information about a specific clinical condition, problem, or diagnosis."
+  },
+  {
+    "question": "What is the purpose of the Consent resource?",
+    "answer": "A patient's consent or denial for information sharing."
+  },
+  {
+    "question": "What is the purpose of the Contract resource?",
+    "answer": "A legal agreement or policy document."
+  },
+  {
+    "question": "What is the purpose of the Coverage resource?",
+    "answer": "Details the insurance or payment plan covering a patient."
+  },
+  {
+    "question": "What is the purpose of the CoverageEligibilityRequest resource?",
+    "answer": "Requests eligibility information from a payer."
+  },
+  {
+    "question": "What is the purpose of the CoverageEligibilityResponse resource?",
+    "answer": "Eligibility information returned from a payer."
+  },
+  {
+    "question": "What is the purpose of the DetectedIssue resource?",
+    "answer": "Information about potential safety or quality concerns."
+  },
+  {
+    "question": "What is the purpose of the Device resource?",
+    "answer": "Details about a healthcare-related device used on a patient."
+  },
+  {
+    "question": "What is the purpose of the DeviceMetric resource?",
+    "answer": "Measurement, calibration, and settings of a medical device."
+  },
+  {
+    "question": "What is the purpose of the DeviceRequest resource?",
+    "answer": "Request for a patient to use or be given a device."
+  },
+  {
+    "question": "What is the purpose of the DeviceUseStatement resource?",
+    "answer": "Record of a device being used by a patient."
+  },
+  {
+    "question": "What is the purpose of the DiagnosticReport resource?",
+    "answer": "Summarizes findings from diagnostic tests such as labs or imaging."
+  },
+  {
+    "question": "What is the purpose of the DocumentManifest resource?",
+    "answer": "List of documents grouped together."
+  },
+  {
+    "question": "What is the purpose of the DocumentReference resource?",
+    "answer": "A reference to a document containing clinical data."
+  },
+  {
+    "question": "What is the purpose of the Encounter resource?",
+    "answer": "Information about an interaction between a patient and a healthcare provider."
+  },
+  {
+    "question": "What is the purpose of the Endpoint resource?",
+    "answer": "Technical details for system-to-system communication."
+  },
+  {
+    "question": "What is the purpose of the EnrollmentRequest resource?",
+    "answer": "Request to enroll in coverage or a program."
+  },
+  {
+    "question": "What is the purpose of the EnrollmentResponse resource?",
+    "answer": "Response to an enrollment request."
+  },
+  {
+    "question": "What is the purpose of the EpisodeOfCare resource?",
+    "answer": "Tracks a period of care for a patient across multiple encounters."
+  },
+  {
+    "question": "What is the purpose of the ExplanationOfBenefit resource?",
+    "answer": "A summary of claim adjudication and payment."
+  },
+  {
+    "question": "What is the purpose of the FamilyMemberHistory resource?",
+    "answer": "A patient\u2019s family history relevant to their health."
+  },
+  {
+    "question": "What is the purpose of the Flag resource?",
+    "answer": "A warning or notification for issues concerning a patient."
+  },
+  {
+    "question": "What is the purpose of the Goal resource?",
+    "answer": "Targets for a patient\u2019s care, such as reducing blood pressure."
+  },
+  {
+    "question": "What is the purpose of the GraphDefinition resource?",
+    "answer": "Defines how resources are connected for graph traversal."
+  },
+  {
+    "question": "What is the purpose of the Group resource?",
+    "answer": "A set of individuals, animals, or devices defined by shared characteristics."
+  },
+  {
+    "question": "What is the purpose of the GuidanceResponse resource?",
+    "answer": "Response from a decision support service."
+  },
+  {
+    "question": "What is the purpose of the HealthcareService resource?",
+    "answer": "Details about the availability and nature of a healthcare service."
+  },
+  {
+    "question": "What is the purpose of the ImagingStudy resource?",
+    "answer": "Information about a set of medical imaging procedures."
+  },
+  {
+    "question": "What is the purpose of the Immunization resource?",
+    "answer": "Record of vaccination administration."
+  },
+  {
+    "question": "What is the purpose of the ImmunizationEvaluation resource?",
+    "answer": "Details the results of an evaluation for immunization status."
+  },
+  {
+    "question": "What is the purpose of the ImmunizationRecommendation resource?",
+    "answer": "Advice on future immunizations."
+  },
+  {
+    "question": "What is the purpose of the ImplementationGuide resource?",
+    "answer": "Describes a set of rules for using FHIR in a specific context."
+  },
+  {
+    "question": "What is the purpose of the InsurancePlan resource?",
+    "answer": "Information about a health insurance offering."
+  },
+  {
+    "question": "What is the purpose of the Invoice resource?",
+    "answer": "A statement of charges for goods and services."
+  },
+  {
+    "question": "What is the purpose of the Library resource?",
+    "answer": "A collection of knowledge assets used in decision support."
+  },
+  {
+    "question": "What is the purpose of the Linkage resource?",
+    "answer": "Records associations between different records for the same real-world entity."
+  },
+  {
+    "question": "What is the purpose of the List resource?",
+    "answer": "An ordered collection of resources."
+  },
+  {
+    "question": "What is the purpose of the Location resource?",
+    "answer": "Details about a physical place where care is delivered."
+  },
+  {
+    "question": "What is the purpose of the Measure resource?",
+    "answer": "Definition of a quality measure for evaluating performance."
+  },
+  {
+    "question": "What is the purpose of the MeasureReport resource?",
+    "answer": "Results of calculating a measure."
+  },
+  {
+    "question": "What is the purpose of the Media resource?",
+    "answer": "Photo, video, or audio recordings."
+  },
+  {
+    "question": "What is the purpose of the Medication resource?",
+    "answer": "Detailed definition of a drug or medication product."
+  },
+  {
+    "question": "What is the purpose of the MedicationAdministration resource?",
+    "answer": "Details the actual administration of a medication."
+  },
+  {
+    "question": "What is the purpose of the MedicationDispense resource?",
+    "answer": "Details the supply of medication to a patient."
+  },
+  {
+    "question": "What is the purpose of the MedicationKnowledge resource?",
+    "answer": "Knowledge about a medication including indications and interactions."
+  },
+  {
+    "question": "What is the purpose of the MedicationRequest resource?",
+    "answer": "A request or order for a patient to receive medication."
+  },
+  {
+    "question": "What is the purpose of the MedicationStatement resource?",
+    "answer": "A record of a patient\u2019s medication usage history."
+  },
+  {
+    "question": "What is the purpose of the MedicinalProductDefinition resource?",
+    "answer": "Describes a regulated medicinal product."
+  },
+  {
+    "question": "What is the purpose of the MessageDefinition resource?",
+    "answer": "Describes the structure and intent of a messaging event."
+  },
+  {
+    "question": "What is the purpose of the MessageHeader resource?",
+    "answer": "Metadata about a message exchange."
+  },
+  {
+    "question": "What is the purpose of the MolecularSequence resource?",
+    "answer": "Data related to genetic sequencing."
+  },
+  {
+    "question": "What is the purpose of the NamingSystem resource?",
+    "answer": "System for managing unique identifiers."
+  },
+  {
+    "question": "What is the purpose of the NutritionIntake resource?",
+    "answer": "A record of food and nutrition intake."
+  },
+  {
+    "question": "What is the purpose of the NutritionOrder resource?",
+    "answer": "A request for diet, oral supplements, or enteral feeding."
+  },
+  {
+    "question": "What is the purpose of the Observation resource?",
+    "answer": "Used to capture measurements and test results."
+  },
+  {
+    "question": "What is the purpose of the ObservationDefinition resource?",
+    "answer": "Defines how observations are structured and used."
+  },
+  {
+    "question": "What is the purpose of the OperationDefinition resource?",
+    "answer": "Describes a custom operation or named query."
+  },
+  {
+    "question": "What is the purpose of the OperationOutcome resource?",
+    "answer": "Used to report success, warning, or error messages."
+  },
+  {
+    "question": "What is the purpose of the Organization resource?",
+    "answer": "A grouping of people or institutions involved in healthcare."
+  },
+  {
+    "question": "What is the purpose of the OrganizationAffiliation resource?",
+    "answer": "Relationships between organizations."
+  },
+  {
+    "question": "What is the purpose of the Patient resource?",
+    "answer": "Demographic and administrative information about a person receiving care."
+  },
+  {
+    "question": "What is the purpose of the PaymentNotice resource?",
+    "answer": "Indicates that payment has been received."
+  },
+  {
+    "question": "What is the purpose of the PaymentReconciliation resource?",
+    "answer": "Provides payment details for a set of claims."
+  },
+  {
+    "question": "What is the purpose of the Person resource?",
+    "answer": "A human being involved in healthcare, possibly linking multiple records."
+  },
+  {
+    "question": "What is the purpose of the PlanDefinition resource?",
+    "answer": "Defines a plan or protocol of activities."
+  },
+  {
+    "question": "What is the purpose of the Practitioner resource?",
+    "answer": "A person involved in delivering care, like a doctor or nurse."
+  },
+  {
+    "question": "What is the purpose of the PractitionerRole resource?",
+    "answer": "Roles a practitioner may perform within an organization."
+  },
+  {
+    "question": "What is the purpose of the Procedure resource?",
+    "answer": "An action performed on a patient."
+  },
+  {
+    "question": "What is the purpose of the Provenance resource?",
+    "answer": "Tracks the origin and authorship of a resource."
+  },
+  {
+    "question": "What is the purpose of the Questionnaire resource?",
+    "answer": "A set of questions to guide data collection."
+  },
+  {
+    "question": "What is the purpose of the QuestionnaireResponse resource?",
+    "answer": "Responses to a completed questionnaire."
+  },
+  {
+    "question": "What is the purpose of the RelatedPerson resource?",
+    "answer": "A person related to the patient relevant for care."
+  },
+  {
+    "question": "What is the purpose of the RequestGroup resource?",
+    "answer": "A group of related requests or orders."
+  },
+  {
+    "question": "What is the purpose of the ResearchStudy resource?",
+    "answer": "Details about a clinical or scientific research study."
+  },
+  {
+    "question": "What is the purpose of the ResearchSubject resource?",
+    "answer": "Information about a participant in a study."
+  },
+  {
+    "question": "What is the purpose of the RiskAssessment resource?",
+    "answer": "Prediction of outcomes for a patient."
+  },
+  {
+    "question": "What is the purpose of the Schedule resource?",
+    "answer": "Availability information for a practitioner or service."
+  },
+  {
+    "question": "What is the purpose of the SearchParameter resource?",
+    "answer": "Defines criteria for searching resources."
+  },
+  {
+    "question": "What is the purpose of the ServiceRequest resource?",
+    "answer": "Request for a service such as lab tests or imaging."
+  },
+  {
+    "question": "What is the purpose of the Slot resource?",
+    "answer": "Specific time slots available for scheduling appointments."
+  },
+  {
+    "question": "What is the purpose of the Specimen resource?",
+    "answer": "Details about samples taken for testing."
+  },
+  {
+    "question": "What is the purpose of the SpecimenDefinition resource?",
+    "answer": "Describes how to collect and handle specimens."
+  },
+  {
+    "question": "What is the purpose of the StructureDefinition resource?",
+    "answer": "Defines constraints on a resource or data type."
+  },
+  {
+    "question": "What is the purpose of the StructureMap resource?",
+    "answer": "Maps data between different structures."
+  },
+  {
+    "question": "What is the purpose of the Subscription resource?",
+    "answer": "Subscribes to changes in data matching a criteria."
+  },
+  {
+    "question": "What is the purpose of the SubscriptionStatus resource?",
+    "answer": "Current status of a subscription."
+  },
+  {
+    "question": "What is the purpose of the SubscriptionTopic resource?",
+    "answer": "Topic definition for subscriptions."
+  },
+  {
+    "question": "What is the purpose of the Substance resource?",
+    "answer": "A material with a definite composition used in healthcare."
+  },
+  {
+    "question": "What is the purpose of the SubstanceDefinition resource?",
+    "answer": "Defines a substance in terms of structure and properties."
+  },
+  {
+    "question": "What is the purpose of the SupplyDelivery resource?",
+    "answer": "Record of delivery of healthcare items."
+  },
+  {
+    "question": "What is the purpose of the SupplyRequest resource?",
+    "answer": "Request for delivery of healthcare supply items."
+  },
+  {
+    "question": "What is the purpose of the Task resource?",
+    "answer": "Tracks actions to be performed."
+  },
+  {
+    "question": "What is the purpose of the TerminologyCapabilities resource?",
+    "answer": "Describes terminology server capabilities."
+  },
+  {
+    "question": "What is the purpose of the TestReport resource?",
+    "answer": "Results from executing a test script."
+  },
+  {
+    "question": "What is the purpose of the TestScript resource?",
+    "answer": "Defines tests for FHIR implementations."
+  },
+  {
+    "question": "What is the purpose of the ValueSet resource?",
+    "answer": "A list of codes drawn from one or more code systems."
+  },
+  {
+    "question": "What is the purpose of the VerificationResult resource?",
+    "answer": "Outcome of verifying a resource or entity."
+  },
+  {
+    "question": "What is the purpose of the VisionPrescription resource?",
+    "answer": "Prescription for vision correction products."
+  }
+]
